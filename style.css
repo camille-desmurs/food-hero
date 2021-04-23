@@ -1,0 +1,111 @@
+/* Colors and fonts */
+
+body {
+	background: #FCD757;
+	color: black;
+	font-family: 'Akaya Kanadaka', cursive;
+	font-size: 17px;
+	font-weight: lighter;
+    border: 15px solid #101820;
+    margin: 0;
+}
+
+#History{
+	text-align: center;
+}
+
+#Team{
+	text-align: center;
+}
+
+#Concept{
+	text-align: center;
+}
+
+#body{
+	text-align: center;
+}
+
+.sidebar
+{
+    border-bottom: 15px solid #101820;
+}
+
+ul
+{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+li
+{
+    padding-right: 2.5em;
+}
+
+.container
+{
+    margin: 0px auto;
+    width: 75%;
+}
+
+.card-white
+{
+    border: 3px solid black;
+    margin: 2%;
+    padding: 2.5em;
+    border-radius: 12px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+#header
+{
+    text-align: center;
+}
+
+h1 {
+	color: black;
+	font-family: 'Libre Barcode 39 Tex t', cursive;
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+h2 {
+	color: black;
+	font-family: 'Ravi Prakash', cursive;
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+a {
+	color: black;
+	font-weight: bold;
+    transition-duration: 0.2s;
+    text-decoration-style: dotted;
+}
+
+a:hover {
+	color: #EB3300;
+	cursor: pointer;
+}
+
+#hero{
+	text-align: center;
+	height: 50vh;
+	width: 100%;
+	background-image: url("https://images.unsplash.com/photo-1514986888952-8cd320577b68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1510&q=80");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#followus{
+	text-align: center;
+}
+
+#followus i 
+{
+	font-size: 5em;
+}
